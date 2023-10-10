@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="47" passed="44">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1063475" started-at="2022-03-09T11:13:16 PKT" finished-at="2022-03-09T11:31:00 PKT">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="1063475" started-at="2022-03-09T11:13:16 PKT" finished-at="2022-03-09T11:31:00 PKT">
+      <class name="Android.TestCases.TCSignUp">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Android.TestCases.TCSignUp@42d8062c]" name="Setup" is-config="true" duration-ms="10346" started-at="2022-03-09T11:13:39 PKT" finished-at="2022-03-09T11:13:49 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="newEmail()[pri:1, instance:Android.TestCases.TCSignUp@42d8062c]" name="newEmail" duration-ms="14472" started-at="2022-03-09T11:13:49 PKT" finished-at="2022-03-09T11:14:03 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newEmail -->
+        <test-method status="PASS" signature="firstName()[pri:2, instance:Android.TestCases.TCSignUp@42d8062c]" name="firstName" duration-ms="5345" started-at="2022-03-09T11:14:03 PKT" finished-at="2022-03-09T11:14:09 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstName -->
+        <test-method status="PASS" signature="lastName()[pri:3, instance:Android.TestCases.TCSignUp@42d8062c]" name="lastName" duration-ms="3794" started-at="2022-03-09T11:14:09 PKT" finished-at="2022-03-09T11:14:13 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastName -->
+        <test-method status="PASS" signature="enterpPassword()[pri:4, instance:Android.TestCases.TCSignUp@42d8062c]" name="enterpPassword" duration-ms="5722" started-at="2022-03-09T11:14:13 PKT" finished-at="2022-03-09T11:14:18 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterpPassword -->
+        <test-method status="PASS" signature="enterPhone()[pri:5, instance:Android.TestCases.TCSignUp@42d8062c]" name="enterPhone" duration-ms="9873" started-at="2022-03-09T11:14:18 PKT" finished-at="2022-03-09T11:14:28 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPhone -->
+        <test-method status="PASS" signature="enterVerificationCode()[pri:6, instance:Android.TestCases.TCSignUp@42d8062c]" name="enterVerificationCode" duration-ms="20603" started-at="2022-03-09T11:14:28 PKT" finished-at="2022-03-09T11:14:49 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterVerificationCode -->
+        <test-method status="PASS" signature="btnLocation()[pri:7, instance:Android.TestCases.TCSignUp@42d8062c]" name="btnLocation" duration-ms="5253" started-at="2022-03-09T11:14:49 PKT" finished-at="2022-03-09T11:14:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btnLocation -->
+        <test-method status="PASS" signature="selectLocation()[pri:8, instance:Android.TestCases.TCSignUp@42d8062c]" name="selectLocation" duration-ms="13436" started-at="2022-03-09T11:14:54 PKT" finished-at="2022-03-09T11:15:07 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLocation -->
+        <test-method status="PASS" signature="nextTour()[pri:9, instance:Android.TestCases.TCSignUp@42d8062c]" name="nextTour" duration-ms="21369" started-at="2022-03-09T11:15:07 PKT" finished-at="2022-03-09T11:15:29 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextTour -->
+      </class> <!-- Android.TestCases.TCSignUp -->
+      <class name="Android.TestCases.TCFeed">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Android.TestCases.TCFeed@5f3a4b84]" name="Setup" is-config="true" duration-ms="10812" started-at="2022-03-09T11:13:28 PKT" finished-at="2022-03-09T11:13:39 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="addFeed()[pri:1, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addFeed" duration-ms="28971" started-at="2022-03-09T11:15:29 PKT" finished-at="2022-03-09T11:15:58 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFeed -->
+        <test-method status="PASS" signature="Reaction()[pri:2, instance:Android.TestCases.TCFeed@5f3a4b84]" name="Reaction" duration-ms="5254" started-at="2022-03-09T11:15:58 PKT" finished-at="2022-03-09T11:16:03 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reaction -->
+        <test-method status="PASS" signature="addSimpleComment()[pri:3, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addSimpleComment" duration-ms="14300" started-at="2022-03-09T11:16:03 PKT" finished-at="2022-03-09T11:16:17 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSimpleComment -->
+        <test-method status="PASS" signature="reactionComment()[pri:4, instance:Android.TestCases.TCFeed@5f3a4b84]" name="reactionComment" duration-ms="6094" started-at="2022-03-09T11:16:17 PKT" finished-at="2022-03-09T11:16:23 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reactionComment -->
+        <test-method status="PASS" signature="addSimplereply()[pri:5, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addSimplereply" duration-ms="7366" started-at="2022-03-09T11:16:23 PKT" finished-at="2022-03-09T11:16:31 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSimplereply -->
+        <test-method status="PASS" signature="reactionReply()[pri:6, instance:Android.TestCases.TCFeed@5f3a4b84]" name="reactionReply" duration-ms="6213" started-at="2022-03-09T11:16:31 PKT" finished-at="2022-03-09T11:16:37 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reactionReply -->
+        <test-method status="FAIL" signature="back()[pri:7, instance:Android.TestCases.TCFeed@5f3a4b84]" name="back" duration-ms="7088" started-at="2022-03-09T11:16:37 PKT" finished-at="2022-03-09T11:16:44 PKT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.xpath: //android.widget.TextView[@content-desc="content-feed-screen-1-1-station-message-station-message-content-text-content-read-more-text"]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //android.widget.TextView[@content-desc="content-feed-screen-1-1-station-message-station-message-content-text-content-read-more-text"]
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.getText(<generated>)
+at Method.Verify.verify(Verify.java:29)
+at Android.TestCases.TCFeed.back(TCFeed.java:136)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@410e94e (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA-sigmas-MacBook-Pro-2.local', ip: 'fe80:0:0:0:14ca:4d06:27ac:73c4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: co.seasoned.seasonedMessagi..., appPackage: co.seasoned.seasonedMessagi..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: co.seasoned.seasonedMessagi..., appPackage: co.seasoned.seasonedMessagi..., automationName: UiAutomator2, fullReset: false, newCommandTimeout: 10000, noReset: true, platformName: Android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A205F, deviceName: R58M634E4CA, deviceScreenDensity: 280, deviceScreenSize: 720x1560, deviceUDID: R58M634E4CA, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: true, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 53, takesScreenshot: true, viewportRect: {height: 1370, left: 0, top: 53, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: ac7d5003-c11b-498d-a997-1e6b51677064
+*** Element info: {Using=xpath, value=//android.widget.TextView[@content-desc="content-feed-screen-1-1-station-message-station-message-content-text-content-read-more-text"]}
+at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back -->
+        <test-method status="PASS" signature="addSearchFeed()[pri:8, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addSearchFeed" duration-ms="30823" started-at="2022-03-09T11:16:44 PKT" finished-at="2022-03-09T11:17:15 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSearchFeed -->
+        <test-method status="PASS" signature="removeLocation()[pri:9, instance:Android.TestCases.TCFeed@5f3a4b84]" name="removeLocation" duration-ms="28971" started-at="2022-03-09T11:17:15 PKT" finished-at="2022-03-09T11:17:44 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeLocation -->
+        <test-method status="PASS" signature="addByPhone()[pri:10, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addByPhone" duration-ms="10596" started-at="2022-03-09T11:17:44 PKT" finished-at="2022-03-09T11:17:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addByPhone -->
+        <test-method status="PASS" signature="addGIF()[pri:11, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addGIF" duration-ms="13473" started-at="2022-03-09T11:17:54 PKT" finished-at="2022-03-09T11:18:08 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addGIF -->
+        <test-method status="PASS" signature="addGifComment()[pri:12, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addGifComment" duration-ms="5664" started-at="2022-03-09T11:18:08 PKT" finished-at="2022-03-09T11:18:14 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addGifComment -->
+        <test-method status="PASS" signature="backGif()[pri:13, instance:Android.TestCases.TCFeed@5f3a4b84]" name="backGif" duration-ms="2912" started-at="2022-03-09T11:18:14 PKT" finished-at="2022-03-09T11:18:17 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backGif -->
+        <test-method status="PASS" signature="addSpecialCharacters()[pri:14, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addSpecialCharacters" duration-ms="15165" started-at="2022-03-09T11:18:17 PKT" finished-at="2022-03-09T11:18:32 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSpecialCharacters -->
+        <test-method status="PASS" signature="addSpecialCharactersComment()[pri:15, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addSpecialCharactersComment" duration-ms="10428" started-at="2022-03-09T11:18:32 PKT" finished-at="2022-03-09T11:18:42 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSpecialCharactersComment -->
+        <test-method status="PASS" signature="addByEmail()[pri:16, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addByEmail" duration-ms="10639" started-at="2022-03-09T11:18:42 PKT" finished-at="2022-03-09T11:18:53 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addByEmail -->
+        <test-method status="PASS" signature="addByLink()[pri:17, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addByLink" duration-ms="14331" started-at="2022-03-09T11:18:53 PKT" finished-at="2022-03-09T11:19:07 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addByLink -->
+        <test-method status="PASS" signature="addLinkComments()[pri:18, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addLinkComments" duration-ms="8611" started-at="2022-03-09T11:19:07 PKT" finished-at="2022-03-09T11:19:16 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLinkComments -->
+        <test-method status="PASS" signature="addByMetaDataLink()[pri:19, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addByMetaDataLink" duration-ms="13078" started-at="2022-03-09T11:19:16 PKT" finished-at="2022-03-09T11:19:29 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addByMetaDataLink -->
+        <test-method status="PASS" signature="addByMetaDataLinkComment()[pri:20, instance:Android.TestCases.TCFeed@5f3a4b84]" name="addByMetaDataLinkComment" duration-ms="11448" started-at="2022-03-09T11:19:29 PKT" finished-at="2022-03-09T11:19:40 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addByMetaDataLinkComment -->
+        <test-method status="PASS" signature="btnBack()[pri:21, instance:Android.TestCases.TCFeed@5f3a4b84]" name="btnBack" duration-ms="8480" started-at="2022-03-09T11:19:40 PKT" finished-at="2022-03-09T11:19:49 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btnBack -->
+        <test-method status="PASS" signature="longString()[pri:22, instance:Android.TestCases.TCFeed@5f3a4b84]" name="longString" duration-ms="14199" started-at="2022-03-09T11:19:49 PKT" finished-at="2022-03-09T11:20:03 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- longString -->
+        <test-method status="PASS" signature="longStringComment()[pri:23, instance:Android.TestCases.TCFeed@5f3a4b84]" name="longStringComment" duration-ms="7625" started-at="2022-03-09T11:20:03 PKT" finished-at="2022-03-09T11:20:11 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- longStringComment -->
+        <test-method status="PASS" signature="blankSpace()[pri:24, instance:Android.TestCases.TCFeed@5f3a4b84]" name="blankSpace" duration-ms="10276" started-at="2022-03-09T11:20:11 PKT" finished-at="2022-03-09T11:20:21 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankSpace -->
+        <test-method status="PASS" signature="changeLocation()[pri:25, instance:Android.TestCases.TCFeed@5f3a4b84]" name="changeLocation" duration-ms="27705" started-at="2022-03-09T11:20:21 PKT" finished-at="2022-03-09T11:20:49 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeLocation -->
+        <test-method status="PASS" signature="goBackRemoveLocation()[pri:26, instance:Android.TestCases.TCFeed@5f3a4b84]" name="goBackRemoveLocation" duration-ms="27324" started-at="2022-03-09T11:20:49 PKT" finished-at="2022-03-09T11:21:16 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackRemoveLocation -->
+        <test-method status="PASS" signature="btnCurrentLocation()[pri:27, instance:Android.TestCases.TCFeed@5f3a4b84]" name="btnCurrentLocation" duration-ms="38330" started-at="2022-03-09T11:21:16 PKT" finished-at="2022-03-09T11:21:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btnCurrentLocation -->
+        <test-method status="PASS" signature="covidArtical()[pri:28, instance:Android.TestCases.TCFeed@5f3a4b84]" name="covidArtical" duration-ms="16430" started-at="2022-03-09T11:21:54 PKT" finished-at="2022-03-09T11:22:11 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- covidArtical -->
+      </class> <!-- Android.TestCases.TCFeed -->
+      <class name="Android.TestCases.TCEditPostDetailScreen">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Android.TestCases.TCEditPostDetailScreen@27f723]" name="Setup" is-config="true" duration-ms="11698" started-at="2022-03-09T11:13:16 PKT" finished-at="2022-03-09T11:13:28 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="editAddFeed()[pri:1, instance:Android.TestCases.TCEditPostDetailScreen@27f723]" name="editAddFeed" duration-ms="42093" started-at="2022-03-09T11:22:11 PKT" finished-at="2022-03-09T11:22:53 PKT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [qjISitCWCZp8947] but found [A4Z78smhuxe00yi]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [qjISitCWCZp8947] but found [A4Z78smhuxe00yi]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Android.TestCases.TCEditPostDetailScreen.editAddFeed(TCEditPostDetailScreen.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editAddFeed -->
+        <test-method status="PASS" signature="back()[pri:2, instance:Android.TestCases.TCEditPostDetailScreen@27f723]" name="back" duration-ms="4516" started-at="2022-03-09T11:22:53 PKT" finished-at="2022-03-09T11:22:57 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back -->
+        <test-method status="PASS" signature="editComment()[pri:3, instance:Android.TestCases.TCEditPostDetailScreen@27f723]" name="editComment" duration-ms="56370" started-at="2022-03-09T11:22:57 PKT" finished-at="2022-03-09T11:23:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editComment -->
+        <test-method status="PASS" signature="editGifFeed()[pri:4, instance:Android.TestCases.TCEditPostDetailScreen@27f723]" name="editGifFeed" duration-ms="34063" started-at="2022-03-09T11:23:54 PKT" finished-at="2022-03-09T11:24:28 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editGifFeed -->
+        <test-method status="PASS" signature="editGifComment()[pri:5, instance:Android.TestCases.TCEditPostDetailScreen@27f723]" name="editGifComment" duration-ms="34678" started-at="2022-03-09T11:24:28 PKT" finished-at="2022-03-09T11:25:02 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editGifComment -->
+        <test-method status="PASS" signature="deletePost()[pri:6, instance:Android.TestCases.TCEditPostDetailScreen@27f723]" name="deletePost" duration-ms="30689" started-at="2022-03-09T11:25:02 PKT" finished-at="2022-03-09T11:25:33 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePost -->
+        <test-method status="PASS" signature="deleteComment()[pri:7, instance:Android.TestCases.TCEditPostDetailScreen@27f723]" name="deleteComment" duration-ms="47507" started-at="2022-03-09T11:25:33 PKT" finished-at="2022-03-09T11:26:21 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="FAIL" signature="deleteReply()[pri:8, instance:Android.TestCases.TCEditPostDetailScreen@27f723]" name="deleteReply" duration-ms="151489" started-at="2022-03-09T11:26:21 PKT" finished-at="2022-03-09T11:28:52 PKT">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Located by By.xpath: //android.view.ViewGroup[@content-desc="station-message-2-station-message-station-message-head-menu-icon-button"]/android.view.ViewGroup/android.view.ViewGroup (tried for 100 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //android.view.ViewGroup[@content-desc="station-message-2-station-message-station-message-head-menu-icon-button"]/android.view.ViewGroup/android.view.ViewGroup (tried for 100 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at Common.Utility.Utils.waitUntil(Utils.java:18)
+at Method.EditFeedMethod.deletereply(EditFeedMethod.java:49)
+at Android.TestCases.TCEditPostDetailScreen.deleteReply(TCEditPostDetailScreen.java:159)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //android.view.ViewGroup[@content-desc="station-message-2-station-message-station-message-head-menu-icon-button"]/android.view.ViewGroup/android.view.ViewGroup
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 31 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3722f39d (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 38 more
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'QA-sigmas-MacBook-Pro-2.local', ip: 'fe80:0:0:0:14ca:4d06:27ac:73c4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: co.seasoned.seasonedMessagi..., appPackage: co.seasoned.seasonedMessagi..., automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: co.seasoned.seasonedMessagi..., appPackage: co.seasoned.seasonedMessagi..., automationName: UiAutomator2, fullReset: false, newCommandTimeout: 10000, noReset: true, platformName: Android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A205F, deviceName: R58M634E4CA, deviceScreenDensity: 280, deviceScreenSize: 720x1560, deviceUDID: R58M634E4CA, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 10000, noReset: true, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 53, takesScreenshot: true, viewportRect: {height: 1370, left: 0, top: 53, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: ac7d5003-c11b-498d-a997-1e6b51677064
+*** Element info: {Using=xpath, value=//android.view.ViewGroup[@content-desc="station-message-2-station-message-station-message-head-menu-icon-button"]/android.view.ViewGroup/android.view.ViewGroup}
+at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 40 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteReply -->
+        <test-method status="PASS" signature="listViewEdit()[pri:9, instance:Android.TestCases.TCEditPostDetailScreen@27f723]" name="listViewEdit" duration-ms="85693" started-at="2022-03-09T11:28:52 PKT" finished-at="2022-03-09T11:30:18 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listViewEdit -->
+        <test-method status="PASS" signature="listViewDelete()[pri:10, instance:Android.TestCases.TCEditPostDetailScreen@27f723]" name="listViewDelete" duration-ms="41796" started-at="2022-03-09T11:30:18 PKT" finished-at="2022-03-09T11:31:00 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listViewDelete -->
+      </class> <!-- Android.TestCases.TCEditPostDetailScreen -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>
