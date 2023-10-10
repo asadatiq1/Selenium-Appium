@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="test"> 
+  
+    <classes>
+      <class name="Android.TestCases.TCSignUp"/>
+      <class name="Android.TestCases.TCLogin"/>
+      <class name="Android.TestCases.TCFeed"/> 
+       <class name="Android.TestCases.TCEditPostDetailScreen"/> 
+      <class name="Android.TestCases.TCElasticSearch"/>
+      <class name="Android.TestCases.TCCommentOnOtherPost"/>
+      <class name="Android.TestCases.TCSupportUser"/>
+    </classes> 
+	
+   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+  
